@@ -1,19 +1,16 @@
 Algoritmo "menu cadastro agencia de viagens"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Data atual  : 10/07/2022
 tipo
 
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
   clientes: vetor [0..2, 0..2] de caractere
   i,j,encontrou:inteiro;
   info: vetor [0..2] de caractere
   pesquisa:caractere
-Inicio// Seção de Comandos, procedimento, funções, operadores, etc...
+Inicio// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
       info[0] <- "nome: "
       info[1] <- "sobrenome: "
@@ -23,10 +20,10 @@ Inicio// Seção de Comandos, procedimento, funções, operadores, etc...
       escreval("Cadastro de Cliente")
 
       escreval("Digite os Dados: ")
-      para i de 0 ate 2 faça
+      para i de 0 ate 2 faÃ§a
        escreval("Codcliente ",i+1)
       
-      para j de 0 ate 2 faça
+      para j de 0 ate 2 faÃ§a
            escreva(info[j])
            leia(clientes[i,j])
 
@@ -39,8 +36,8 @@ Inicio// Seção de Comandos, procedimento, funções, operadores, etc...
       escreval("**Dados Clientes**")
       escreval()
       
-      para i de 0 ate 2 faça
-      para j de 0 ate 2 faça
+      para i de 0 ate 2 faÃ§a
+      para j de 0 ate 2 faÃ§a
       
        escreva(info[j])
        escreval(clientes[i,j])
